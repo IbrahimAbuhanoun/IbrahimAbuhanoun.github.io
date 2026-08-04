@@ -32,8 +32,9 @@ collection: portfolio
   }
 
   .research-diagram {
-    object-fit: cover;
-}
+    object-fit: contain;
+    background-color: #fff;
+  }
 
   .research-caption {
     margin-top: 10px;
