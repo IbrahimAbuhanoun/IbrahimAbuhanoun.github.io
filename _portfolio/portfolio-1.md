@@ -11,8 +11,10 @@ Engines operating in particle-dense environments (like sand or dust) suffer stru
 
   <figure style="margin:0; text-align:center; max-width:45%;">
     <img src="/images/Osprey_In_Sand.jpg"
-         alt="V-22 Osprey operating in sand"
+         alt="V-22 Osprey operating in a sand-dense environment"
          style="width:100%;
+                height:320px;
+                object-fit:cover;
                 border-radius:8px;
                 display:block;
                 box-shadow:0 3px 10px rgba(0,0,0,0.15);">
@@ -22,14 +24,16 @@ Engines operating in particle-dense environments (like sand or dust) suffer stru
                        font-style:italic;
                        color:#000;
                        line-height:1.35;">
-      V-22 Osprey engines operating in a sand-dense environment
+      V-22 Osprey engines operating in a sand-dense environment.
     </figcaption>
   </figure>
 
   <figure style="margin:0; text-align:center; max-width:45%;">
     <img src="/images/Sand_Deposits.jpg"
-         alt="Sand deposits on an M250 turbine"
+         alt="Sand deposits on an M250 engine"
          style="width:100%;
+                height:320px;
+                object-fit:cover;
                 border-radius:8px;
                 display:block;
                 box-shadow:0 3px 10px rgba(0,0,0,0.15);">
@@ -39,7 +43,7 @@ Engines operating in particle-dense environments (like sand or dust) suffer stru
                        font-style:italic;
                        color:#000;
                        line-height:1.35;">
-      Sand deposits on the last-stage power turbine of an M250 engine
+      Sand deposits on the last-stage power turbine of an M250 engine.
     </figcaption>
   </figure>
 
