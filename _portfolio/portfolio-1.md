@@ -22,7 +22,7 @@ Engines operating in particle-dense environments (like sand or dust) suffer stru
                        font-style:italic;
                        color:#000;
                        line-height:1.35;">
-      V-22 Osprey engines operating in a sand-dense environment.
+      V-22 Osprey engines operating in a sand-dense environment
     </figcaption>
   </figure>
 
@@ -39,7 +39,7 @@ Engines operating in particle-dense environments (like sand or dust) suffer stru
                        font-style:italic;
                        color:#000;
                        line-height:1.35;">
-      Sand deposits on the last-stage power turbine of an M250 engine.
+      Sand deposits on the last-stage power turbine of an M250 engine
     </figcaption>
   </figure>
 
@@ -52,4 +52,48 @@ A vine robot is a **tip-growing soft continuum robot**: pressurized air everts t
 - **No wall friction.** Since translation energy is concentrated entirely at the tip, the tube body remains static relative to its surroundings, eliminating the sliding friction borescopes rely on to advance — and the jamming risk that friction-based locomotion introduces.
 - **Fully flexible body.** Unlike borescopes, which are only flexible near the tip, a vine robot's entire length remains compliant, allowing it to conform to complex, cluttered geometries.
 - **Extreme compressibility.** Vine robots can deform to roughly ¼ their original diameter, enabling access through narrower gaps than rigid or semi-rigid tools can reach.
+
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:28px; flex-wrap:wrap; margin:30px 0;">
+
+  <figure style="margin:0; text-align:center; max-width:45%;">
+    <img src="/images/Vine_Robot.jpg"
+         alt="Vine robot"
+         style="width:100%;
+                border-radius:8px;
+                display:block;
+                box-shadow:0 3px 10px rgba(0,0,0,0.15);">
+    <figcaption style="margin-top:10px;
+                       font-size:1.03rem;
+                       font-weight:bold;
+                       font-style:italic;
+                       color:#000;
+                       line-height:1.35;">
+      Components and structure of a "Vine Robot"
+    </figcaption>
+  </figure>
+
+  <figure style="margin:0; text-align:center; max-width:45%;">
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+      style="width:100%;
+             border-radius:8px;
+             display:block;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);">
+      <source src="Borescope_Function.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption style="margin-top:10px;
+                       font-size:1.03rem;
+                       font-weight:bold;
+                       font-style:italic;
+                       color:#000;
+                       line-height:1.35;">
+      Demonstration of borescope functionality and limited flexibility
+    </figcaption>
+  </figure>
+
+</div>
 
