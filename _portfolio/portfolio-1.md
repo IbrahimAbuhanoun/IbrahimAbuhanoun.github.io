@@ -78,12 +78,13 @@ A vine robot is a **tip-growing soft continuum robot**: pressurized air everts t
       muted
       loop
       playsinline
+      preload="auto"
+      controls
       style="width:100%;
              border-radius:8px;
              display:block;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);">
-      <source src="Borescope_Function.mp4" type="video/mp4">
-      Your browser does not support the video tag.
+      <source src="/Borescope_Function.mp4" type="video/mp4">
     </video>
     <figcaption style="margin-top:10px;
                        font-size:1.03rem;
@@ -96,4 +97,3 @@ A vine robot is a **tip-growing soft continuum robot**: pressurized air everts t
   </figure>
 
 </div>
-
