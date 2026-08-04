@@ -24,7 +24,7 @@ Engines operating in particle-dense environments (like sand or dust) suffer stru
                        font-style:italic;
                        color:#000;
                        line-height:1.35;">
-      V-22 Osprey engines operating in a sand-dense environment.
+      V-22 Osprey engines operating in a sand-dense environment
     </figcaption>
   </figure>
 
@@ -43,7 +43,7 @@ Engines operating in particle-dense environments (like sand or dust) suffer stru
                        font-style:italic;
                        color:#000;
                        line-height:1.35;">
-      Sand deposits on the last-stage power turbine of an M250 engine.
+      Sand deposits on the last-stage power turbine of an M250 engine
     </figcaption>
   </figure>
 
