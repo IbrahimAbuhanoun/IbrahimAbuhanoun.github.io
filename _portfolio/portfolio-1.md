@@ -1,6 +1,6 @@
 ---
 title: "Master's Degree Experience"
-excerpt: "The objective of my master's work was to improve the design of a soft robot called a "Vine robot" and test its navigation capability in a simulated jet engine environment. This helps us determine whether cost-effective soft robots can be a potential substitute to more expensive inspection equipment like borescopes. <br/><img src='/images/500x300.png'>"
+excerpt: "The objective of my master's work was to improve the design of a soft robot called a \"Vine robot"\ and test its navigation capability in a simulated jet engine environment. This helps us determine whether cost-effective soft robots can be a potential substitute to more expensive inspection equipment like borescopes. <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
