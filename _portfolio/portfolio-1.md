@@ -3,46 +3,84 @@ title: "Master's Degree Experience"
 excerpt: "The objective of my master's work was to improve the design of a soft robot design concept called a Vine Robot and test its navigation capability in a simulated jet engine environment. This helps us determine whether cost-effective soft robots can be a potential substitute to more expensive inspection equipment like borescopes that are more flexible and are able to operate without requiring engine overhauls.<br><video width='700' controls style='display:block;margin:20px auto 0 auto;max-width:100%;'><source src='/Vine_Tube_Motion_With_Bullet_Cap.mp4' type='video/mp4'></video><span style='display:block;text-align:center;'><em><strong>Demonstration of tube navigating the simulated engine environment</strong></em></span>"
 collection: portfolio
 ---
+<style>
+  .research-figure-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+    align-items: start;
+    margin: 30px auto;
+    width: 100%;
+  }
+
+  .research-figure {
+    margin: 0;
+    text-align: center;
+    min-width: 0;
+  }
+
+  .research-media {
+    width: 100%;
+    height: 320px;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .research-photo {
+    object-fit: cover;
+  }
+
+  .research-diagram {
+    object-fit: contain;
+    background-color: #fff;
+  }
+
+  .research-caption {
+    margin-top: 10px;
+    padding: 0 8px;
+    color: #000;
+    font-size: 1.03rem;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.35;
+    text-align: center;
+  }
+
+  @media (max-width: 700px) {
+    .research-figure-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .research-media {
+      height: auto;
+      max-height: 320px;
+    }
+  }
+</style>
+
 ## Background & Motivation
 
 Engines operating in particle-dense environments (like sand or dust) suffer structural damage over time. Traditional inspection tools — borescopes — are rigid, limited in reach, and expensive (up to **$84,000**). Soft robots offer a cheaper, more flexible alternative that could eliminate long engine overhauls and reach critical areas for research and diagnostics.
 
-<div style="display:flex; justify-content:center; align-items:flex-start; gap:28px; flex-wrap:wrap; margin:30px 0;">
+<div class="research-figure-grid">
 
-  <figure style="margin:0; text-align:center; max-width:45%;">
-    <img src="/images/Osprey_In_Sand.jpg"
-         alt="V-22 Osprey operating in a sand-dense environment"
-         style="width:100%;
-                height:320px;
-                object-fit:cover;
-                border-radius:8px;
-                display:block;
-                box-shadow:0 3px 10px rgba(0,0,0,0.15);">
-    <figcaption style="margin-top:10px;
-                       font-size:1.03rem;
-                       font-weight:bold;
-                       font-style:italic;
-                       color:#000;
-                       line-height:1.35;">
+  <figure class="research-figure">
+    <img
+      src="/images/Osprey_In_Sand.jpg"
+      alt="V-22 Osprey operating in a sand-dense environment"
+      class="research-media research-photo">
+    <figcaption class="research-caption">
       V-22 Osprey engines operating in a sand-dense environment
     </figcaption>
   </figure>
 
-  <figure style="margin:0; text-align:center; max-width:45%;">
-    <img src="/images/Sand_Deposits.jpg"
-         alt="Sand deposits on an M250 engine"
-         style="width:100%;
-                height:320px;
-                object-fit:cover;
-                border-radius:8px;
-                display:block;
-                box-shadow:0 3px 10px rgba(0,0,0,0.15);">
-    <figcaption style="margin-top:10px;
-                       font-size:1.03rem;
-                       font-weight:bold;
-                       font-style:italic;
-                       color:#000;
-                       line-height:1.35;">
+  <figure class="research-figure">
+    <img
+      src="/images/Sand_Deposits.jpg"
+      alt="Sand deposits on the last-stage power turbine of an M250 engine"
+      class="research-media research-photo">
+    <figcaption class="research-caption">
       Sand deposits on the last-stage power turbine of an M250 engine
     </figcaption>
   </figure>
@@ -57,26 +95,19 @@ A vine robot is a **tip-growing soft continuum robot**: pressurized air everts t
 - **Fully flexible body.** Unlike borescopes, which are only flexible near the tip, a vine robot's entire length remains compliant, allowing it to conform to complex, cluttered geometries.
 - **Extreme compressibility.** Vine robots can deform to roughly ¼ their original diameter, enabling access through narrower gaps than rigid or semi-rigid tools can reach.
 
-<div style="display:flex; justify-content:center; align-items:flex-start; gap:28px; flex-wrap:wrap; margin:30px 0;">
+<div class="research-figure-grid">
 
-  <figure style="margin:0; text-align:center; max-width:45%;">
-    <img src="/images/Vine_Robot.jpg"
-         alt="Vine robot"
-         style="width:100%;
-                border-radius:8px;
-                display:block;
-                box-shadow:0 3px 10px rgba(0,0,0,0.15);">
-    <figcaption style="margin-top:10px;
-                       font-size:1.03rem;
-                       font-weight:bold;
-                       font-style:italic;
-                       color:#000;
-                       line-height:1.35;">
+  <figure class="research-figure">
+    <img
+      src="/images/Vine_Robot.jpg"
+      alt="Components and structure of a vine robot"
+      class="research-media research-diagram">
+    <figcaption class="research-caption">
       Components and structure of a "Vine Robot"
     </figcaption>
   </figure>
 
-  <figure style="margin:0; text-align:center; max-width:45%;">
+  <figure class="research-figure">
     <video
       autoplay
       muted
@@ -84,18 +115,10 @@ A vine robot is a **tip-growing soft continuum robot**: pressurized air everts t
       playsinline
       preload="auto"
       controls
-      style="width:100%;
-             border-radius:8px;
-             display:block;
-             box-shadow:0 3px 10px rgba(0,0,0,0.15);">
+      class="research-media research-photo">
       <source src="/Borescope_Function.mp4" type="video/mp4">
     </video>
-    <figcaption style="margin-top:10px;
-                       font-size:1.03rem;
-                       font-weight:bold;
-                       font-style:italic;
-                       color:#000;
-                       line-height:1.35;">
+    <figcaption class="research-caption">
       Demonstration of borescope functionality and limited flexibility
     </figcaption>
   </figure>
