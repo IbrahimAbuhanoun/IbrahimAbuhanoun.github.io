@@ -125,7 +125,7 @@ A vine robot is a **tip-growing soft continuum robot**: pressurized air everts t
 
 </div>
 ## Previous Work
-A proof-of-concept vine robot was developed for the 2024 senior capstone project, but the design had three key limitations that this work aimed to address:
+A proof-of-concept vine robot was developed for the FA2023 - Sp2024 senior capstone project at the Advanced Propulsion and Power Lab (APPL), but the design had three key limitations that this work aimed to address:
 - **Unrealistic engine model.** The axial compressor section was oversized and geometrically inaccurate to the M250 engine, limiting the relevance of navigation testing.
 - **Constrained tube dimensions.** Tube length was capped by the heat sealer's working length, and diameters below 1 inch could not be reliably fabricated — concentrated heat from the sealing process caused pinholes in the tube wall, compromising structural integrity.
 - **Impaired navigation.** The tube's flat tip geometry caused it to deform around and conform tightly against compressor blades, restricting further advancement.
@@ -194,3 +194,9 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
     The flat vine-robot tip conforms tightly around the compressor blade, restricting further advancement
   </figcaption>
 </figure>
+## Research Objectives
+- **Scale down tube diameter** to the 4–10 mm range, matching the miniaturized scale used in medical soft-robotics applications.
+- **Develop a more accurate axial compressor model**, geometrically representative of the M250 engine.
+- **Improve tip navigation** through custom tip-structure designs, reducing snagging and improving passage through blade rows.
+
+
