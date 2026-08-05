@@ -125,15 +125,12 @@ A vine robot is a **tip-growing soft continuum robot**: pressurized air everts t
 
 </div>
 ## Previous Work
-
 A proof-of-concept vine robot was developed for the 2024 senior capstone project, but the design had two key limitations that this work aimed to address:
-
 - **Unrealistic engine model.** The axial compressor section was oversized and geometrically inaccurate to the M250 engine, limiting the relevance of navigation testing.
 - **Constrained tube dimensions.** Tube length was capped by the heat sealer's working length, and diameters below 1 inch could not be reliably fabricated — concentrated heat from the sealing process caused pinholes in the tube wall, compromising structural integrity.
 - **Impaired navigation.** The tube's flat tip geometry caused it to deform around and conform tightly against compressor blades, restricting further advancement.
 
-<div class="research-figure-grid" style="grid-template-columns: 1.6fr 1fr;">
-
+<div class="research-figure-grid" style="grid-template-columns:1.6fr 1fr;">
   <figure class="research-figure">
     <img
       src="/images/Big_Gap_Model.jpg"
@@ -147,11 +144,10 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
       Oversized initial axial compressor model of the M250 engine
     </figcaption>
   </figure>
-
   <figure class="research-figure">
     <img
       src="/images/Trad_Heatslr.jpg"
-      alt="Heat sealer length limitation"
+      alt="Traditional impulse heat sealer"
       style="width:100%;
              height:auto;
              border-radius:8px;
@@ -161,5 +157,40 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
       Traditional impulse heat sealer with 20" of working length
     </figcaption>
   </figure>
-
 </div>
+
+<figure style="margin:35px auto 0 auto; width:100%; text-align:center;">
+  <div style="display:grid;
+              grid-template-columns:repeat(2, minmax(0, 1fr));
+              gap:28px;
+              align-items:center;">
+    <img
+      src="/images/Tube_Hug_Pic.jpg"
+      alt="Flat vine robot tip conforming around a compressor blade"
+      style="width:100%;
+             height:320px;
+             object-fit:cover;
+             border-radius:8px;
+             display:block;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);">
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="auto"
+      controls
+      style="width:100%;
+             height:320px;
+             object-fit:cover;
+             border-radius:8px;
+             display:block;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);">
+      <source src="/Tip_Hugging.mp4" type="video/mp4">
+    </video>
+  </div>
+  <figcaption class="research-caption"
+              style="max-width:760px; margin:12px auto 0 auto;">
+    The flat vine-robot tip conforms tightly around the compressor blade, restricting further advancement
+  </figcaption>
+</figure>
