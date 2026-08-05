@@ -198,5 +198,10 @@ A proof-of-concept vine robot was developed for the FA2023 - Sp2024 senior capst
 - **Scale down tube diameter** to the 4–10 mm range, matching the miniaturized scale used in medical soft-robotics applications.
 - **Develop a more accurate axial compressor model**, geometrically representative of the M250 engine.
 - **Improve tip navigation** through custom tip-structure designs, reducing snagging and improving passage through blade rows.
+## Methods
+**Engine Model:** An improved model of the axial compressor was created by accounting for key geometric trends in multi-stage axial compressor designs like the chord length (c), the pitch (s), and blade span (h). Rough approximations of the 4th stage blade geometry were used as a baseline to extrapolate to the other stages. Key design assumptions like symmetrical blading, no blade twist, constant stagger angle (45 degrees), and constant axial velocity (decreasing blade span) were made and the aspect ratio for each stage (AR) was influenced by the solidity and the blade spacing assumptions made. (falls between 1.2 to 1.6 which is acceptable but not representative aerodynamically). (0.5 x c).
+**Tube Fabrication.** Tubes were fabricated from LDPE film using a continuous heat sealer, with a slit-and-scaling method used to control final tube diameter. Thin carbon-fiber rods were inserted between the tail and wall of the tube to maintain clearance and improve airflow during eversion.
+
+**Tip-Structure Design.** Two custom tip geometries were designed and tested to improve navigation through the compressor: a **bullet-shaped cap** (3D-printed in both rigid PLA and flexible TPU) and a **ball/socket cap**, inspired by ball-point pen and roll-on deodorant mechanisms.
 
 
