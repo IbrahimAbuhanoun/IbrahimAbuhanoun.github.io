@@ -186,7 +186,7 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
              border-radius:8px;
              display:block;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);">
-      <source src="/Tip_Hugging.mp4" type="video/mp4">
+      <source src="/Tube_Hugging.mp4" type="video/mp4">
     </video>
   </div>
   <figcaption class="research-caption"
