@@ -132,7 +132,7 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
 - **Constrained tube dimensions.** Tube length was capped by the heat sealer's working length, and diameters below 1 inch could not be reliably fabricated — concentrated heat from the sealing process caused pinholes in the tube wall, compromising structural integrity.
 - **Impaired navigation.** The tube's flat tip geometry caused it to deform around and conform tightly against compressor blades, restricting further advancement.
 
-<div class="research-figure-grid">
+<div class="research-figure-grid" style="grid-template-columns: 1.6fr 1fr;">
 
   <figure class="research-figure">
     <img
