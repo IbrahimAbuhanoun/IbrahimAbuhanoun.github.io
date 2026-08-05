@@ -131,3 +131,27 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
 - **Unrealistic engine model.** The axial compressor section was oversized and geometrically inaccurate to the M250 engine, limiting the relevance of navigation testing.
 - **Constrained tube dimensions.** Tube length was capped by the heat sealer's working length, and diameters below 1 inch could not be reliably fabricated — concentrated heat from the sealing process caused pinholes in the tube wall, compromising structural integrity.
 - **Impaired navigation.** The tube's flat tip geometry caused it to deform around and conform tightly against compressor blades, restricting further advancement.
+
+<div class="research-figure-grid">
+
+  <figure class="research-figure">
+    <img
+      src="/images/Big_Gap_Model.jpg"
+      alt="Original proof-of-concept engine model"
+      class="research-media research-photo">
+    <figcaption class="research-caption">
+      Oversized and geometrically simplified compressor model used during the initial proof-of-concept study.
+    </figcaption>
+  </figure>
+
+  <figure class="research-figure">
+    <img
+      src="/images/Trad_Heatslr.jpg"
+      alt="Heat sealer length limitation"
+      class="research-media research-photo">
+    <figcaption class="research-caption">
+      Tube length was limited by the working length of the impulse heat sealer used during fabrication.
+    </figcaption>
+  </figure>
+
+</div>
