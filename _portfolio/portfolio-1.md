@@ -138,7 +138,11 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
     <img
       src="/images/Big_Gap_Model.jpg"
       alt="Original proof-of-concept engine model"
-      class="research-media research-photo">
+      style="width:100%;
+             height:auto;
+             border-radius:8px;
+             display:block;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);">
     <figcaption class="research-caption">
       Oversized and geometrically simplified compressor model used during the initial proof-of-concept study.
     </figcaption>
@@ -148,7 +152,11 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
     <img
       src="/images/Trad_Heatslr.jpg"
       alt="Heat sealer length limitation"
-      class="research-media research-photo">
+      style="width:100%;
+             height:auto;
+             border-radius:8px;
+             display:block;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);">
     <figcaption class="research-caption">
       Tube length was limited by the working length of the impulse heat sealer used during fabrication.
     </figcaption>
