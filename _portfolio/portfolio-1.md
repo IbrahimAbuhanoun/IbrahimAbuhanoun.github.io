@@ -134,7 +134,7 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
 
 <div class="research-figure-grid">
 
-  <figure class="research-figure">
+  <figure class="research-figure" style="flex:1.2;">
     <img
       src="/images/Big_Gap_Model.jpg"
       alt="Original proof-of-concept engine model"
@@ -144,11 +144,11 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
              display:block;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);">
     <figcaption class="research-caption">
-      Oversized and geometrically simplified compressor model used during the initial proof-of-concept study.
+      Oversized initial axial compressor model of the M250 engine
     </figcaption>
   </figure>
 
-  <figure class="research-figure">
+  <figure class="research-figure" style="flex:0.8;">
     <img
       src="/images/Trad_Heatslr.jpg"
       alt="Heat sealer length limitation"
@@ -158,7 +158,7 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
              display:block;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);">
     <figcaption class="research-caption">
-      Tube length was limited by the working length of the impulse heat sealer used during fabrication.
+      Traditional impulse heat sealer with 20" of working length
     </figcaption>
   </figure>
 
