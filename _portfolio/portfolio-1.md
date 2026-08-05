@@ -138,7 +138,7 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
     <img
       src="/images/Big_Gap_Model.jpg"
       alt="Original proof-of-concept engine model"
-      style="width:120%;
+      style="width:100%;
              height:auto;
              border-radius:8px;
              display:block;
