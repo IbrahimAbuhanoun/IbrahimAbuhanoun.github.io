@@ -93,7 +93,7 @@ A vine robot is a **tip-growing soft continuum robot**: pressurized air everts t
 
 - **No wall friction.** Since translation energy is concentrated entirely at the tip, the tube body remains static relative to its surroundings, eliminating the sliding friction borescopes rely on to advance — and the jamming risk that friction-based locomotion introduces.
 - **Fully flexible body.** Unlike borescopes, which are only flexible near the tip, a vine robot's entire length remains compliant, allowing it to conform to complex, cluttered geometries.
-- **Extreme compressibility.** Vine robots can deform to roughly ¼ their original diameter, enabling access through narrower gaps than rigid or semi-rigid tools can reach.
+- **Extreme compressibility.** Vine robots can deform to roughly ¼ their original diameter, enabling access through narrower gaps that rigid tools like borescopes cannot reach.
 
 <div class="research-figure-grid">
 
@@ -124,3 +124,10 @@ A vine robot is a **tip-growing soft continuum robot**: pressurized air everts t
   </figure>
 
 </div>
+## Previous Work
+
+A proof-of-concept vine robot was developed for the 2024 senior capstone project, but the design had two key limitations that this work aimed to address:
+
+- **Unrealistic engine model.** The axial compressor section was oversized and geometrically inaccurate to the M250 engine, limiting the relevance of navigation testing.
+- **Constrained tube dimensions.** Tube length was capped by the heat sealer's working length, and diameters below 1 inch could not be reliably fabricated — concentrated heat from the sealing process caused pinholes in the tube wall, compromising structural integrity.
+- **Impaired navigation.** The tube's flat tip geometry caused it to deform around and conform tightly against compressor blades, restricting further advancement.
