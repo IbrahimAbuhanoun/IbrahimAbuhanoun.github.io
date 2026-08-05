@@ -134,11 +134,11 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
 
 <div class="research-figure-grid">
 
-  <figure class="research-figure" style="flex:1.5;">
+  <figure class="research-figure">
     <img
       src="/images/Big_Gap_Model.jpg"
       alt="Original proof-of-concept engine model"
-      style="width:100%;
+      style="width:120%;
              height:auto;
              border-radius:8px;
              display:block;
@@ -148,7 +148,7 @@ A proof-of-concept vine robot was developed for the 2024 senior capstone project
     </figcaption>
   </figure>
 
-  <figure class="research-figure" style="flex:0.5;">
+  <figure class="research-figure">
     <img
       src="/images/Trad_Heatslr.jpg"
       alt="Heat sealer length limitation"
