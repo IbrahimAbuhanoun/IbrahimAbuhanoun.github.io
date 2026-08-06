@@ -198,10 +198,18 @@ A proof-of-concept vine robot was developed for the FA2023 - Sp2024 senior capst
 - **Scale down tube diameter** to the 4–10 mm range, matching the miniaturized scale used in medical soft-robotics applications.
 - **Develop a more accurate axial compressor model**, geometrically representative of the M250 engine.
 - **Improve tip navigation** through custom tip-structure designs, reducing snagging and improving passage through blade rows.
-## Methods
-**Engine Model:** An improved model of the axial compressor was created by accounting for key geometric trends in multi-stage axial compressor designs like the chord length (c), the pitch (s), and blade span (h). Rough approximations of the 4th stage blade geometry were used as a baseline to extrapolate to the other stages. Key design assumptions like symmetrical blading, no blade twist, constant stagger angle (45 degrees), and constant axial velocity (decreasing blade span) were made and the aspect ratio for each stage (AR) was influenced by the solidity and the blade spacing assumptions made. (falls between 1.2 to 1.6 which is acceptable but not representative aerodynamically). (0.5 x c).
-**Tube Fabrication.** Tubes were fabricated from LDPE film using a continuous heat sealer, with a slit-and-scaling method used to control final tube diameter. Thin carbon-fiber rods were inserted between the tail and wall of the tube to maintain clearance and improve airflow during eversion.
 
-**Tip-Structure Design.** Two custom tip geometries were designed and tested to improve navigation through the compressor: a **bullet-shaped cap** (3D-printed in both rigid PLA and flexible TPU) and a **ball/socket cap**, inspired by ball-point pen and roll-on deodorant mechanisms.
+## Methods
+### Engine Model
+A geometrically representative six-stage axial compressor model was developed to provide a realistic environment for vine robot navigation testing. The design prioritizes physical geometry over aerodynamic performance, capturing the primary geometric trends observed in real compressors while relying on simplified aerodynamic assumptions.
+
+**Modeling assumptions and design choices:**
+- **Progressive geometry scaling** — Blade geometry was extrapolated from an approximate fourth-stage baseline, with chord length (*c*), blade pitch (*s*), and blade span (*h*) progressively decreasing toward the rear stages.
+- **NACA 65-010 blade profile**, selected as representative of typical axial compressor blading, with solidity held constant at 1.0 across all stages.
+- **Symmetrical rotor–stator blade profiles** with no blade twist.
+- **Constant 45° blade stagger angle** across all stages.
+- **Constant axial velocity**, maintained via a corresponding reduction in blade span (annulus flow area).
+- **Rotor–stator axial spacing** fixed at 0.5 × *c*.
+
 
 
