@@ -211,5 +211,7 @@ A geometrically representative six-stage axial compressor model was developed to
 - **Constant axial velocity**, maintained via a corresponding reduction in blade span (annulus flow area).
 - **Rotor–stator axial spacing** fixed at 0.5 × *c*.
 
+## Results
+
 
 
