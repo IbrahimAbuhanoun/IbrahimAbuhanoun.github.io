@@ -212,6 +212,7 @@ A geometrically representative six-stage axial compressor model was developed to
 - **Rotor–stator axial spacing** fixed at 0.5 × *c*.
 
 ## Results
+the results
 
 
 
