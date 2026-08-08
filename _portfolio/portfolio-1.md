@@ -267,7 +267,7 @@ Vine robot tubes were fabricated from low-density polyethylene (LDPE) film, a wi
   </figure>
 </div>
 
-<div class="research-figure-grid" style="grid-template-columns: 0.9fr 1.1fr; margin-top:20px; align-items:center;">
+<div class="research-figure-grid" style="grid-template-columns: 0.9fr 1.1fr; margin-top:20px">
   <figure class="research-figure">
     <img
       src="/images/Slit_Method.jpg"
