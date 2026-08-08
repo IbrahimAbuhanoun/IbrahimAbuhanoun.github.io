@@ -204,12 +204,14 @@ A proof-of-concept vine robot was developed for the FA2023 - Sp2024 senior capst
 A geometrically representative six-stage axial compressor model was developed to provide a realistic environment for vine robot navigation testing. The design prioritizes physical geometry over aerodynamic performance, capturing the primary geometric trends observed in real compressors while relying on simplified aerodynamic assumptions.
 
 **Modeling assumptions and design choices:**
-- **Progressive geometry scaling** — Blade geometry was extrapolated from an approximate fourth-stage baseline, with chord length (*c*), blade pitch (*s*), and blade span (*h*) progressively decreasing toward the rear stages.
+- **Progressive geometry scaling** — Blade geometry was extrapolated from an approximate fourth-stage baseline, with chord length (**c**), blade pitch (**s**), and blade span (**h**) progressively decreasing toward the rear stages.
 - **NACA 65-010 blade profile**, selected as representative of typical axial compressor blading, with solidity held constant at 1.0 across all stages.
 - **Symmetrical rotor–stator blade profiles** with no blade twist.
 - **Constant 45° blade stagger angle** across all stages.
 - **Constant axial velocity**, maintained via a corresponding reduction in blade span (annulus flow area).
 - **Rotor–stator axial spacing** fixed at 0.5 × *c*.
+  
+The stator and rotor parts of the model interlock simulating the motion of the rotor and allowing for various spacing configurations to be tested.
 
 ## Results
 the results
