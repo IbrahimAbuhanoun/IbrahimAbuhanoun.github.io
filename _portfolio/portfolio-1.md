@@ -242,9 +242,93 @@ Stator and rotor sections of the engine model interlock, allowing the rotor to s
     </figcaption>
   </figure>
 </div>
-
 ### Tube Fabrication
-A geometrically representative six-stage axial compressor model was developed to provide a realistic environment for vine robot navigation testing. The design prioritizes physical geometry over aerodynamic performance, capturing the primary geometric trends observed in real compressors while relying on simplified aerodynamic assumptions.
+Vine robot tubes were fabricated from low-density polyethylene (LDPE) film, a widely used material in vine robot construction valued for its low cost, low elastic strain, and ease of heat sealing. Tubes were produced using a continuous heat sealer, enabling arbitrary lengths and diameters through a repeatable, low-manual-intervention process.
+
+**Fabrication process and design choices:**
+- **Continuous heat sealing** — A VEVOR continuous heat sealer joined 1" and 1.5"-wide LDPE film into sealed tubes, with seal quality controlled by sealing speed, temperature, and roller pressure.
+- **Diameter scaling** — Target tube diameter was set via a slit-and-scaling method, using the relationship *D = 2L/π* (derived from the tube's circumference) to calculate the offset needed to reach a desired diameter.
+- **Carbon-fiber inversion rods** — Thin (1/16" diameter) carbon fiber rods were used to invert the tubes maximizing the clearance between the tube's tail and wall, which allows for more airflow to pass through and evert the tube at lower, more manageable pressures.
+**Outcomes** — This process produced consistent, reliable seals at arbitrary tube lengths and successfully scaled tubes down to sub-10 mm diameters — well beyond the ~1" minimum diameter achievable with the previous heat-sealing setup. However, longer sealing dwell times introduced wrinkling and warping in the film, which caused the tube to bend upward when inflated. Seal strength was also sensitive to temperature: higher temperatures risked forming pinholes, while lower temperatures produced weaker, less reliable seals.
+
+<div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
+  <figure class="research-figure" style="max-width:600px; margin:0 auto;">
+    <img
+      src="/images/PLACEHOLDER_Sealer.jpg"
+      alt="VEVOR continuous heat sealer used for tube fabrication"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption">
+      VEVOR continuous heat sealer used to fabricate LDPE tubing
+    </figcaption>
+  </figure>
+</div>
+
+<div class="research-figure-grid" style="grid-template-columns: 1fr 1fr; margin-top:20px;">
+  <figure class="research-figure">
+    <img
+      src="/images/PLACEHOLDER_Scaling_Diagram.jpg"
+      alt="Slit and scaling method used to control tube diameter"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption">
+      Slit-and-scaling method used to control tube diameter, showing the desired tube, sealed area, and discarded excess
+    </figcaption>
+  </figure>
+  <figure class="research-figure">
+    <img
+      src="/images/PLACEHOLDER_Carbon_Rod.jpg"
+      alt="Carbon fiber rod inserted between tube tail and wall"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption">
+      Carbon fiber rod maintaining a wall-tail gap to improve airflow during eversion
+    </figcaption>
+  </figure>
+</div>
+
+<div class="research-figure-grid" style="grid-template-columns: 1fr 1fr; margin-top:20px;">
+  <figure class="research-figure">
+    <img
+      src="/images/PLACEHOLDER_Long_Tube.jpg"
+      alt="Fabricated tube demonstrating consistent seal quality at arbitrary length"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption">
+      32.5" tube demonstrating consistent seal quality at an arbitrary length
+    </figcaption>
+  </figure>
+  <figure class="research-figure">
+    <img
+      src="/images/PLACEHOLDER_Wrinkling_Holes.jpg"
+      alt="Wrinkling and pinhole formation from increased dwell time and temperature"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption">
+      Wrinkling and pinhole formation resulting from increased sealing dwell time and temperature
+    </figcaption>
+  </figure>
+</div>
 ## Results
 the results
 
