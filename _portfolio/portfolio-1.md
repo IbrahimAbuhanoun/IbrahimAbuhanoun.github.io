@@ -212,15 +212,13 @@ A geometrically representative six-stage axial compressor model was developed to
 - **Rotor–stator axial spacing** fixed at 0.5 × *c*.
   
 Stator and rotor sections of the engine model interlock, allowing the rotor to shift position to simulate rotational motion and enabling testing across a range of blade-spacing configurations.
-<div class="research-figure-grid" style="grid-template-columns: 1fr 1fr;">
+<div class="research-figure-grid" style="grid-template-columns: 1.4fr 0.8fr; align-items:center;">
   <figure class="research-figure">
     <img
       src="/images/Dec_Bld_Span.jpg"
       alt="Demonstration of the engine model's blade geometry. The blade span (h) and the rotor-stator axial spacing decrease along the axial direction"
       style="width:100%;
-             height:300px;
-             object-fit:contain;
-             background-color:#f4f4f4;
+             height:auto;
              display:block;
              border-radius:8px;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
@@ -234,9 +232,7 @@ Stator and rotor sections of the engine model interlock, allowing the rotor to s
       src="/images/Rotor_Seperation.jpg"
       alt="Engine model designed with rotor seperation"
       style="width:100%;
-             height:300px;
-             object-fit:contain;
-             background-color:#f4f4f4;
+             height:auto;
              display:block;
              border-radius:8px;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
@@ -246,7 +242,6 @@ Stator and rotor sections of the engine model interlock, allowing the rotor to s
     </figcaption>
   </figure>
 </div>
-
 ## Results
 the results
 
