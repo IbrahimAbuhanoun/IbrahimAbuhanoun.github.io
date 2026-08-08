@@ -219,7 +219,8 @@ Stator and rotor sections of the engine model interlock, allowing the rotor to s
       alt="Demonstration of the engine model's blade geometry. The blade span (h) and the rotor-stator axial spacing decrease along the axial direction"
       style="width:100%;
              height:300px;
-             object-fit:cover;
+             object-fit:contain;
+             background-color:#f4f4f4;
              display:block;
              border-radius:8px;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
@@ -234,7 +235,8 @@ Stator and rotor sections of the engine model interlock, allowing the rotor to s
       alt="Engine model designed with rotor seperation"
       style="width:100%;
              height:300px;
-             object-fit:cover;
+             object-fit:contain;
+             background-color:#f4f4f4;
              display:block;
              border-radius:8px;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
