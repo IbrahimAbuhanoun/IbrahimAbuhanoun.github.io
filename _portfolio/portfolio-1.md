@@ -253,7 +253,7 @@ Vine robot tubes were fabricated from low-density polyethylene (LDPE) film, a wi
 <div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
   <figure class="research-figure" style="max-width:600px; margin:0 auto;">
     <img
-      src="/images/PLACEHOLDER_Sealer.jpg"
+      src="/images/VEVOR_Slr.jpg"
       alt="VEVOR continuous heat sealer used for tube fabrication"
       style="width:100%;
              height:auto;
@@ -262,7 +262,7 @@ Vine robot tubes were fabricated from low-density polyethylene (LDPE) film, a wi
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
     >
     <figcaption class="research-caption">
-      VEVOR continuous heat sealer used to fabricate LDPE tubing
+       continuous heat sealer used to fabricate LDPE tubing
     </figcaption>
   </figure>
 </div>
@@ -270,7 +270,7 @@ Vine robot tubes were fabricated from low-density polyethylene (LDPE) film, a wi
 <div class="research-figure-grid" style="grid-template-columns: 1fr 1fr; margin-top:20px;">
   <figure class="research-figure">
     <img
-      src="/images/PLACEHOLDER_Scaling_Diagram.jpg"
+      src="/images/Slit_Method.jpg"
       alt="Slit and scaling method used to control tube diameter"
       style="width:100%;
              height:auto;
@@ -284,7 +284,7 @@ Vine robot tubes were fabricated from low-density polyethylene (LDPE) film, a wi
   </figure>
   <figure class="research-figure">
     <img
-      src="/images/PLACEHOLDER_Carbon_Rod.jpg"
+      src="/images/Carbon_Rod.jpg"
       alt="Carbon fiber rod inserted between tube tail and wall"
       style="width:100%;
              height:auto;
@@ -293,7 +293,7 @@ Vine robot tubes were fabricated from low-density polyethylene (LDPE) film, a wi
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
     >
     <figcaption class="research-caption">
-      Carbon fiber rod maintaining a wall-tail gap to improve airflow during eversion
+      Tube inversion process using carbon fiber rod
     </figcaption>
   </figure>
 </div>
