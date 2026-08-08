@@ -297,7 +297,8 @@ Vine robot tubes were fabricated from low-density polyethylene (LDPE) film, a wi
     </figcaption>
   </figure>
 </div>
-
+### Tip Structure Design 
+The tip structure is made of 
 ## Results
 the results
 
