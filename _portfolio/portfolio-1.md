@@ -242,6 +242,9 @@ Stator and rotor sections of the engine model interlock, allowing the rotor to s
     </figcaption>
   </figure>
 </div>
+
+### Tube Fabrication
+A geometrically representative six-stage axial compressor model was developed to provide a realistic environment for vine robot navigation testing. The design prioritizes physical geometry over aerodynamic performance, capturing the primary geometric trends observed in real compressors while relying on simplified aerodynamic assumptions.
 ## Results
 the results
 
