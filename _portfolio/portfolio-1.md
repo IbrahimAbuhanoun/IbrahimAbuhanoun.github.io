@@ -250,7 +250,24 @@ Vine robot tubes were fabricated from low-density polyethylene (LDPE) film, a wi
 - **Diameter scaling** — Target tube diameter was set via a slit-and-scaling method, using the relationship *D = 2L/π* (derived from the tube's circumference) to calculate the offset needed to reach a desired diameter.
 - **Carbon-fiber inversion rods** — Thin (1/16" diameter) carbon fiber rods were used to invert the tubes maximizing the clearance between the tube's tail and wall, which allows for more airflow to pass through and evert the tube at lower, more manageable pressures.
 
-<div class="research-figure-grid" style="grid-template-columns: 0.8fr 1.2fr; margin-top:20px; align-items:center;">
+<div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
+  <figure class="research-figure" style="max-width:600px; margin:0 auto;">
+    <img
+      src="/images/VEVOR_Slr.jpg"
+      alt="VEVOR continuous heat sealer used for tube fabrication"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption">
+       Continuous heat sealer used to fabricate LDPE tubing
+    </figcaption>
+  </figure>
+</div>
+
+<div class="research-figure-grid" style="grid-template-columns: 0.9fr 1.1fr; margin-top:20px; align-items:center;">
   <figure class="research-figure">
     <img
       src="/images/Slit_Method.jpg"
