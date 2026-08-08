@@ -211,7 +211,7 @@ A geometrically representative six-stage axial compressor model was developed to
 - **Constant axial velocity**, maintained via a corresponding reduction in blade span (annulus flow area).
 - **Rotor–stator axial spacing** fixed at 0.5 × *c*.
   
-The stator and rotor parts of the model interlock simulating the motion of the rotor and allowing for various spacing configurations to be tested.
+Stator and rotor sections of the engine model interlock, allowing the rotor to shift position to simulate rotational motion and enabling testing across a range of blade-spacing configurations.
 
 ## Results
 the results
