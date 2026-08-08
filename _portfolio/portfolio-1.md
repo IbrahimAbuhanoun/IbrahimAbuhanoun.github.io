@@ -279,7 +279,7 @@ Vine robot tubes were fabricated from low-density polyethylene (LDPE) film, a wi
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
     >
     <figcaption class="research-caption">
-      Slit-and-scaling method used to control tube diameter, showing the desired tube, sealed area, and discarded excess
+      Slit-and-scaling method used to control tube diameter
     </figcaption>
   </figure>
   <figure class="research-figure">
