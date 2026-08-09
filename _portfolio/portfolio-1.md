@@ -298,10 +298,7 @@ Vine robot tubes were fabricated from low-density polyethylene (LDPE) film, a wi
   </figure>
 </div>
 ### Tip Structure Design 
-A tip structure was designed to address the snagging behavior seen earlier when the flat tip hugs the blade. A tip can also act as a stable medium to attach an end effector like a camera, a pressure sensor, a gripper, and so on.
-
-In designing the tip structure, the main focus was centered around improving navigation and making the design as simple as possible. Several tip-mounting strategies have been explored in prior soft-robotics literature — including rigid caps with rollers, string-based mounts, and magnetic attachments — but each introduces added mechanical complexity or reliability tradeoffs at this scale. Given the project's emphasis on simplicity and rapid iteration, the design effort instead focused on developing a simple cap geometry that could be 3D printed, easily swapped, and directly tested for navigation performance.
-
+A removable tip structure was developed to reduce blade snagging and provide a stable mounting platform for potential end effectors, such as cameras, sensors, or grippers. Existing tip-mounting approaches were reviewed, but many introduced additional mechanical complexity. The design instead prioritized simple, interchangeable 3D-printed cap geometries that could be easily fabricated and evaluated for navigation performance.
 
 ## Results
 the results
