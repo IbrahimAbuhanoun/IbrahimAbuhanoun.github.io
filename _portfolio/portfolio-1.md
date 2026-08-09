@@ -125,7 +125,7 @@ A vine robot is a **tip-growing soft continuum robot**: pressurized air everts t
 
 </div>
 ## Previous Work
-A proof-of-concept vine robot was developed for the FA2023 - Sp2024 senior capstone project at the Advanced Propulsion and Power Lab (APPL), but the design had three key limitations that this work aimed to address:
+A proof-of-concept vine robot was developed for the FA2023 - SP2024 senior capstone project at the Advanced Propulsion and Power Lab (APPL), but the design had three key limitations that this work aimed to address:
 - **Unrealistic engine model.** The axial compressor section was oversized and geometrically inaccurate to the M250 engine, limiting the relevance of navigation testing.
 - **Constrained tube dimensions.** Tube length was capped by the heat sealer's working length, and diameters below 1 inch could not be reliably fabricated — concentrated heat from the sealing process caused pinholes in the tube wall, compromising structural integrity.
 - **Impaired navigation.** The tube's flat tip geometry caused it to deform around and conform tightly against compressor blades, restricting further advancement.
@@ -298,7 +298,11 @@ Vine robot tubes were fabricated from low-density polyethylene (LDPE) film, a wi
   </figure>
 </div>
 ### Tip Structure Design 
-The tip structure is made of 
+A tip structure was designed to address the snagging behavior seen earlier when the flat tip hugs the blade. A tip can also act as a stable medium to attach an end effector like a camera, a pressure sensor, a gripper, and so on.
+
+In designing the tip structure, the main focus was centered around improving navigation and making the design as simple as possible. Several tip-mounting strategies have been explored in prior soft-robotics literature — including rigid caps with rollers, string-based mounts, and magnetic attachments — but each introduces added mechanical complexity or reliability tradeoffs at this scale. Given the project's emphasis on simplicity and rapid iteration, the design effort instead focused on developing a simple cap geometry that could be 3D printed, easily swapped, and directly tested for navigation performance.
+
+
 ## Results
 the results
 
