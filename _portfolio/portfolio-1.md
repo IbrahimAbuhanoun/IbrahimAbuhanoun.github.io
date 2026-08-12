@@ -337,8 +337,6 @@ Two tip designs were developed:
 
 ## Results
 
-## Results
-
 ### Tube Fabrication Results
 
 **Achievements:**
