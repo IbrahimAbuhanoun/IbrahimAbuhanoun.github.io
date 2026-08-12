@@ -304,39 +304,86 @@ Two tip designs were developed:
 - **Bullet-shaped cap** — A streamlined profile was designed to minimize blade contact and friction during navigation. Two material variants were tested: flexible **TPU** and rigid **PLA**.
 - **Ball-and-socket cap** — Inspired by ballpoint pen and roll-on deodorant mechanisms, this design uses a freely rotating ball bearing to reduce resistance during blade contact and facilitate smoother navigation across varying incidence angles.
 
-<div class="research-figure-grid" style="grid-template-columns: 1fr 1fr; margin-top:20px;">
-  <figure class="research-figure">
+<div class="research-figure-grid"
+     style="
+       display:grid;
+       grid-template-columns:0.9fr 1.1fr;
+       gap:30px;
+       margin-top:20px;
+       align-items:start;
+     ">
+
+  <figure
+    style="
+      margin:0;
+      padding:0;
+      background:none;
+      box-shadow:none;
+      text-align:center;
+    ">
+
     <img
       src="/images/Bullet_Cap.jpg"
       alt="Bullet-shaped tip cap design"
-      style="width:100%;
-             height:280px;
-             object-fit:contain;
-             background-color:#f4f4f4;
-             display:block;
-             border-radius:8px;
-             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+      style="
+        width:88%;
+        height:auto;
+        display:block;
+        margin:0 auto;
+        background:none;
+        border-radius:8px;
+        box-shadow:0 3px 10px rgba(0,0,0,0.15);
+      "
     >
-    <figcaption class="research-caption" style="text-align:center;">
+
+    <figcaption
+      class="research-caption"
+      style="
+        width:100%;
+        text-align:center;
+        margin-top:12px;
+      ">
       Bullet-shaped cap design
     </figcaption>
+
   </figure>
-  <figure class="research-figure">
+
+
+  <figure
+    style="
+      margin:0;
+      padding:0;
+      background:none;
+      box-shadow:none;
+      text-align:center;
+    ">
+
     <img
       src="/images/Ball_Socket_Cap.jpg"
       alt="Ball-and-socket tip cap design"
-      style="width:100%;
-             height:340px;
-             object-fit:contain;
-             background-color:#f4f4f4;
-             display:block;
-             border-radius:8px;
-             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+      style="
+        width:100%;
+        height:auto;
+        display:block;
+        margin:0 auto;
+        background:none;
+        border-radius:8px;
+        box-shadow:0 3px 10px rgba(0,0,0,0.15);
+      "
     >
-    <figcaption class="research-caption" style="text-align:center;">
+
+    <figcaption
+      class="research-caption"
+      style="
+        width:100%;
+        text-align:center;
+        margin-top:12px;
+      ">
       Ball-and-socket cap design
     </figcaption>
+
   </figure>
+
 </div>
 ## Results
 the results
