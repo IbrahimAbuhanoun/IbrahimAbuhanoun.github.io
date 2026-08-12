@@ -310,12 +310,14 @@ Two tip designs were developed:
       src="/images/Bullet_Cap.jpg"
       alt="Bullet-shaped tip cap design"
       style="width:100%;
-             height:auto;
+             height:280px;
+             object-fit:contain;
+             background-color:#f4f4f4;
              display:block;
              border-radius:8px;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
     >
-    <figcaption class="research-caption">
+    <figcaption class="research-caption" style="text-align:center;">
       Bullet-shaped cap design
     </figcaption>
   </figure>
@@ -324,12 +326,14 @@ Two tip designs were developed:
       src="/images/Ball_Socket_Cap.jpg"
       alt="Ball-and-socket tip cap design"
       style="width:100%;
-             height:auto;
+             height:280px;
+             object-fit:contain;
+             background-color:#f4f4f4;
              display:block;
              border-radius:8px;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
     >
-    <figcaption class="research-caption">
+    <figcaption class="research-caption" style="text-align:center;">
       Ball-and-socket cap design
     </figcaption>
   </figure>
