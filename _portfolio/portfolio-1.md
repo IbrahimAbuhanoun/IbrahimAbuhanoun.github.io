@@ -326,7 +326,7 @@ Two tip designs were developed:
       src="/images/Ball_Socket_Cap.jpg"
       alt="Ball-and-socket tip cap design"
       style="width:100%;
-             height:280px;
+             height:340px;
              object-fit:contain;
              background-color:#f4f4f4;
              display:block;
