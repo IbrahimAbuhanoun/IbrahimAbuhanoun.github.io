@@ -347,6 +347,6 @@ Two tip designs were developed:
 
 **Limitations:**
 - Longer sealing dwell times caused **wrinkling and warping**, resulting in tube bending during inflation.
-- Seal quality was sensitive to temperature - *excessive* temperatures caused **pinhole** formation, while *insufficient* temperatures produced **weaker seals**.
+- Seal quality was sensitive to temperature — *excessive* temperatures caused **pinhole** formation, while *insufficient* temperatures produced **weaker seals**.
 
 
