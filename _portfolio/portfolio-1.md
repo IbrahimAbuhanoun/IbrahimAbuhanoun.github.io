@@ -305,7 +305,7 @@ Two tip designs were developed:
 - **Ball-and-socket cap** — Inspired by ballpoint pen and roll-on deodorant mechanisms, this design uses a freely rotating ball bearing to reduce resistance during blade contact and facilitate smoother navigation across varying incidence angles.
 
 <div class="research-figure-grid" style="grid-template-columns: 1fr 1fr; margin-top:20px;">
-  <figure class="research-figure">
+  <figure class="research-figure" style="text-align:center;">
     <img
       src="/images/Bullet_Cap.jpg"
       alt="Bullet-shaped tip cap design"
@@ -321,7 +321,8 @@ Two tip designs were developed:
       Bullet-shaped cap design
     </figcaption>
   </figure>
-  <figure class="research-figure">
+
+  <figure class="research-figure" style="text-align:center;">
     <img
       src="/images/Ball_Socket_Cap.jpg"
       alt="Ball-and-socket tip cap design"
