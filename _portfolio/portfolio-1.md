@@ -304,15 +304,13 @@ Two tip designs were developed:
 - **Bullet-shaped cap** — A streamlined profile was designed to minimize blade contact and friction during navigation. Two material variants were tested: flexible **TPU** and rigid **PLA**.
 - **Ball-and-socket cap** — Inspired by ballpoint pen and roll-on deodorant mechanisms, this design uses a freely rotating ball bearing to reduce resistance during blade contact and facilitate smoother navigation across varying incidence angles.
 
-<div class="research-figure-grid" style="grid-template-columns: 1fr 1fr; margin-top:20px;">
+<div class="research-figure-grid" style="grid-template-columns: 0.8fr 1.2fr; margin-top:20px; align-items:center;">
   <figure class="research-figure" style="width:100%;">
     <img
       src="/images/Bullet_Cap.jpg"
       alt="Bullet-shaped tip cap design"
       style="width:100%;
-             height:280px;
-             object-fit:contain;
-             background-color:#f4f4f4;
+             height:auto;
              display:block;
              border-radius:8px;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
@@ -326,9 +324,7 @@ Two tip designs were developed:
       src="/images/Ball_Socket_Cap.jpg"
       alt="Ball-and-socket tip cap design"
       style="width:100%;
-             height:340px;
-             object-fit:contain;
-             background-color:#f4f4f4;
+             height:auto;
              display:block;
              border-radius:8px;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
