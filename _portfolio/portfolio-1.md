@@ -300,6 +300,40 @@ Vine robot tubes were fabricated from low-density polyethylene (LDPE) film, a wi
 ### Tip Structure Design 
 A removable tip structure was developed to reduce blade snagging and provide a stable mounting platform for potential end effectors, such as cameras, sensors, or grippers. Existing tip-mounting approaches were reviewed, but many introduced additional mechanical complexity. The design instead prioritized simple, interchangeable 3D-printed cap geometries that could be easily fabricated and evaluated for navigation performance.
 
+Two tip designs were developed:
+- **Bullet-shaped cap** — A streamlined profile was designed to minimize blade contact and friction during navigation. Two material variants were tested: flexible **TPU** and rigid **PLA**.
+- **Ball-and-socket cap** — Inspired by ballpoint pen and roll-on deodorant mechanisms, this design uses a freely rotating ball bearing to reduce resistance during blade contact and facilitate smoother navigation across varying incidence angles.
+
+<div class="research-figure-grid" style="grid-template-columns: 1fr 1fr; margin-top:20px;">
+  <figure class="research-figure">
+    <img
+      src="/images/Bullet_Cap.jpg"
+      alt="Bullet-shaped tip cap design"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption">
+      Bullet-shaped cap design
+    </figcaption>
+  </figure>
+  <figure class="research-figure">
+    <img
+      src="/images/Ball_Socket_Cap.jpg"
+      alt="Ball-and-socket tip cap design"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption">
+      Ball-and-socket cap design
+    </figcaption>
+  </figure>
+</div>
 ## Results
 the results
 
