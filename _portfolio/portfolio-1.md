@@ -334,12 +334,19 @@ Two tip designs were developed:
     </figcaption>
   </figure>
 </div>
+
+## Results
+
 ## Results
 
 ### Tube Fabrication Results
 
-#### Achievements
+**Achievements:**
+- The slit-and-sealing method enabled fabrication of **miniature-diameter tubes (4 mm < D < 10 mm)**.
+- The continuous sealing process produced **consistent, straight seals** for any arbitrary tube length.
 
-
+**Limitations:**
+- Longer sealing dwell times caused **wrinkling and warping**, resulting in tube bending during inflation.
+- Seal quality was sensitive to temperature - *excessive* temperatures caused **pinhole** formation, while *insufficient* temperatures produced **weaker seals**.
 
 
