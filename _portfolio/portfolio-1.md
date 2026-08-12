@@ -340,7 +340,7 @@ Two tip designs were developed:
 ### Tube Fabrication Results
 
 **Achievements:**
-- The slit-and-sealing method enabled fabrication of **miniature-diameter tubes (4 mm < D < 10 mm)**.
+- The slit-and-scaling method enabled fabrication of **miniature-diameter tubes (4 mm < D < 10 mm)**.
 - The continuous sealing process produced **consistent, straight seals** for any arbitrary tube length.
 
 **Limitations:**
