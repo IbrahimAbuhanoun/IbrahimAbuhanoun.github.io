@@ -378,7 +378,7 @@ Two tip designs were developed:
   </figure>
   <figure class="research-figure">
     <img
-      src="/images/PLACEHOLDER_Pinholes.jpg"
+      src="/images/Hole_Form.jpg"
       alt="Pinhole formation from excessive sealing temperature"
       style="width:100%;
              height:auto;
