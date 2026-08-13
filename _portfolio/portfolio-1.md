@@ -430,3 +430,5 @@ The experimental setup consisted of an air supply, pressure regulator, guiding s
     </figcaption>
   </figure>
 </div>
+
+Shown below are representative tube navigation trials for the bullet-shaped and ball/socket tip structures, tested under the **baseline** engine configuration — with the simulated rotor section **unmoved** and flush against the stator.
