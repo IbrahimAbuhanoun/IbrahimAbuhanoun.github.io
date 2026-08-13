@@ -409,3 +409,21 @@ Two tip designs were developed:
     </figcaption>
   </figure>
 </div>
+### Tube Navigation Results
+**Experimental Test Setup:**
+<div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
+  <figure class="research-figure" style="max-width:700px; margin:0 auto; width:100%;">
+    <img
+      src="/images/Exp_Setup.jpg"
+      alt="Experimental setup used for tube navigation testing"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption" style="text-align:center; width:100%;">
+      Experimental setup used for tube navigation testing
+    </figcaption>
+  </figure>
+</div>
