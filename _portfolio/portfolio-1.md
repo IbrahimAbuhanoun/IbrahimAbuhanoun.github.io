@@ -389,9 +389,9 @@ Two tip designs were developed:
   </figure>
 </div>
 
-<div class="research-caption" style="text-align:center; margin-top:-8px; font-weight:bold; font-style:italic; font-size:1.03rem; color:#000; padding:0 8px; line-height:1.35;">
+<figcaption class="research-caption" style="text-align:center; margin-top:-8px;">
   Wrinkling/warping (left) and pinhole formation (right) resulting from increased sealing dwell time and temperature
-</div>
+</figcaption>
 
 <div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
   <figure class="research-figure" style="max-width:600px; margin:0 auto; width:100%;">
