@@ -409,8 +409,11 @@ Two tip designs were developed:
     </figcaption>
   </figure>
 </div>
+
 ### Tube Navigation Results
+
 **Experimental Test Setup:**
+The experimental setup consisted of an air supply, pressure regulator, guiding stand, and the engine model. An acrylic sheet constrained the tube's upward motion, keeping it contained within the desired test environment. 
 <div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
   <figure class="research-figure" style="max-width:700px; margin:0 auto; width:100%;">
     <img
