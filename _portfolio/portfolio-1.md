@@ -348,7 +348,7 @@ Two tip designs were developed:
 - Seal quality was sensitive to temperature — *excessive* temperatures caused **pinhole** formation, while *insufficient* temperatures produced **weaker seals**.
 
 <div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
-  <figure class="research-figure" style="max-width:600px; margin:0 auto;">
+  <figure class="research-figure" style="max-width:600px; margin:0 auto; width:100%;">
     <img
       src="/images/Consistent_Seal.jpg"
       alt="Consistent straight seal at arbitrary tube length"
@@ -358,7 +358,7 @@ Two tip designs were developed:
              border-radius:8px;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
     >
-    <figcaption class="research-caption">
+    <figcaption class="research-caption" style="text-align:center; width:100%;">
       Consistent, straight seal for a 32.5" long tube
     </figcaption>
   </figure>
@@ -388,12 +388,12 @@ Two tip designs were developed:
     >
   </figure>
 </div>
-<p class="research-caption" style="text-align:center; margin-top:-8px;">
+<p class="research-caption" style="text-align:center; margin-top:-8px; font-weight:bold; font-style:italic; font-size:1.03rem; color:#000;">
   Wrinkling/warping (left) and pinhole formation (right) resulting from increased sealing dwell time and temperature
 </p>
 
 <div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
-  <figure class="research-figure" style="max-width:600px; margin:0 auto;">
+  <figure class="research-figure" style="max-width:600px; margin:0 auto; width:100%;">
     <img
       src="/images/Bending_Effect.jpg"
       alt="Upward bending of the tube when inflated"
@@ -403,9 +403,8 @@ Two tip designs were developed:
              border-radius:8px;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
     >
-    <figcaption class="research-caption">
+    <figcaption class="research-caption" style="text-align:center; width:100%;">
       Demonstration of tube bending caused from tube fabrication errors like warping and pinhole formation
     </figcaption>
   </figure>
 </div>
-
