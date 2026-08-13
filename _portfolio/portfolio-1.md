@@ -347,4 +347,65 @@ Two tip designs were developed:
 - Longer sealing dwell times caused **wrinkling and warping**, resulting in tube bending during inflation.
 - Seal quality was sensitive to temperature — *excessive* temperatures caused **pinhole** formation, while *insufficient* temperatures produced **weaker seals**.
 
+<div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
+  <figure class="research-figure" style="max-width:600px; margin:0 auto;">
+    <img
+      src="/images/Consistent_Seal.jpg"
+      alt="Consistent straight seal at arbitrary tube length"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption">
+      Consistent, straight seal for a 32.5" long tube
+    </figcaption>
+  </figure>
+</div>
+
+<div class="research-figure-grid" style="grid-template-columns: 1fr 1fr; margin-top:20px;">
+  <figure class="research-figure">
+    <img
+      src="/images/Warping_Effect.jpg"
+      alt="Wrinkling and warping from increased sealing dwell time"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+  </figure>
+  <figure class="research-figure">
+    <img
+      src="/images/PLACEHOLDER_Pinholes.jpg"
+      alt="Pinhole formation from excessive sealing temperature"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+  </figure>
+</div>
+<p class="research-caption" style="text-align:center; margin-top:-8px;">
+  Wrinkling/warping (left) and pinhole formation (right) resulting from increased sealing dwell time and temperature
+</p>
+
+<div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
+  <figure class="research-figure" style="max-width:600px; margin:0 auto;">
+    <img
+      src="/images/Bending_Effect.jpg"
+      alt="Upward bending of the tube when inflated"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption">
+      Demonstration of tube bending caused from tube fabrication errors like warping and pinhole formation
+    </figcaption>
+  </figure>
+</div>
 
