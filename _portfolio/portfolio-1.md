@@ -470,3 +470,10 @@ As shown in the navigation trials, the bullet-shaped cap advanced to the **end o
     </figcaption>
   </figure>
 </div>
+
+## Summary of Work and Suggested Future Improvements
+
+| **Area** | **Key Results** | **Limitations** | **Future Improvements** |
+|---|---|---|---|
+| **Tube Fabrication** | • Scalable tubes with diameters < 10 mm<br>• Consistent, straight seals for arbitrary tube lengths | • Wrinkling can cause upward bending<br>• Seal robustness is not always reliable | • Optimize sealing parameters<br>• Add mechanical guides for tube alignment and accurate sealing |
+| **Tube Navigation** | • More realistic engine environment<br>• Navigated 50% of the axial compressor | • Bullet cap lacks sufficient flexibility<br>• Ball-and-socket cap limited by 3D-printing constraints | • Soften bullet cap and incorporate vibration<br>• Improve ball-and-socket design and 3D-printing process |
