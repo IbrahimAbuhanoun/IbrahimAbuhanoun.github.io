@@ -432,3 +432,41 @@ The experimental setup consisted of an air supply, pressure regulator, guiding s
 </div>
 
 Shown below are representative tube navigation trials for the bullet-shaped and ball/socket tip structures, tested under the **baseline** engine configuration — with the simulated rotor section **unmoved** and flush against the stator.
+
+As shown in the navigation trials, the bullet-shaped cap advanced to the **end of the third stage** before being halted by high friction and a head-on collision with a blade, while the ball/socket cap was stopped **just before the third-stage rotor**, snagged by a blade catching on the outer edge of the socket.
+
+<div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
+  <figure class="research-figure" style="max-width:700px; margin:0 auto; width:100%;">
+    <video
+      controls
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+      <source src="/Vine_Tube_Motion_With_Bullet_Cap.mp4" type="video/mp4">
+    </video>
+    <figcaption class="research-caption" style="text-align:center; width:100%;">
+      Bullet-shaped cap navigation test
+    </figcaption>
+  </figure>
+</div>
+
+<div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
+  <figure class="research-figure" style="max-width:700px; margin:0 auto; width:100%;">
+    <video
+      controls
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+      <source src="/Ball_Socket_Test.mp4" type="video/mp4">
+    </video>
+    <figcaption class="research-caption" style="text-align:center; width:100%;">
+      Ball/socket cap navigation test
+    </figcaption>
+  </figure>
+</div>
