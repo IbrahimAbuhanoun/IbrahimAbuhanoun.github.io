@@ -48,3 +48,39 @@ The objective of this study was to investigate the effect of material selection 
 </div>
 
 ### Unit Circle Design Methodology 
+- **Defining Material Properties:** The relevant material and thermal properties were defined for each of the gold, lead, and the helium gas unit circle designs. Namely, the material density, specific heat capacity and the thermal conductivity values were modified.
+- **Setting a Heat Source & BCs:** For each unit circle, the Neumann and the Dirichlet boundary conditions were set identically according to the chart below.
+
+<div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
+  <figure class="research-figure" style="max-width:700px; margin:0 auto; width:100%;">
+    <img
+      src="/images/COMSOL/Def_Mats.jpg"
+      alt="Material definitions for gold, lead, and helium models"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption" style="text-align:center; width:100%; color:#000; font-weight:bold; font-style:italic;">
+      Demonstration of thermal and material properties defined for each material — gold, lead, and helium — applied to the full geometry
+    </figcaption>
+  </figure>
+</div>
+
+<div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
+  <figure class="research-figure" style="max-width:700px; margin:0 auto; width:100%;">
+    <img
+      src="/images/COMSOL/Heat_Src_BC.jpg"
+      alt="Heat source and boundary conditions applied to the unit circle"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption" style="text-align:center; width:100%; color:#000; font-weight:bold; font-style:italic;">
+      Demonstration of Neumann and Dirichlet boundary conditions applied for all three material models
+    </figcaption>
+  </figure>
+</div>
