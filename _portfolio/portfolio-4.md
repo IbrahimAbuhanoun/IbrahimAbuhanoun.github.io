@@ -24,7 +24,7 @@ The objective of this study was to investigate the effect of material selection 
              border-radius:8px;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
     >
-    <figcaption class="research-caption" style="text-align:center; width:100%;">
+    <figcaption class="research-caption" style="text-align:center; width:100%; color:#000; font-weight:bold; font-style:italic;">
       Demonstration of a parametric sweep configured to test voltages from 20–30 mV
     </figcaption>
   </figure>
@@ -41,7 +41,7 @@ The objective of this study was to investigate the effect of material selection 
              border-radius:8px;
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
     >
-    <figcaption class="research-caption" style="text-align:center; width:100%;">
+    <figcaption class="research-caption" style="text-align:center; width:100%; color:#000; font-weight:bold; font-style:italic;">
       Demonstration of plot adjustments before simulating the bus bar model: The temperature bounds were set and shown, and the bus bar (green) was selected as the domain
     </figcaption>
   </figure>
