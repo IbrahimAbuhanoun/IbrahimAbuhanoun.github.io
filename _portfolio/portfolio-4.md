@@ -4,14 +4,14 @@ excerpt: "This section showcases COMSOL Multiphysics projects exploring electrot
 collection: portfolio
 ---
 ## Project Overview
-### Copper Bus Bar Problem
-The objective of this study was to examine the electrothermal behavior of a copper bus bar (with three titanium bolts) under a specified temperature constraint. Specifically, the goal was to determine the maximum voltage that could be applied across the bus bar without its temperature exceeding 350 K.
+### Copper Busbar Problem
+The objective of this study was to examine the electrothermal behavior of a copper busbar (with three titanium bolts) under a specified temperature constraint. Specifically, the goal was to determine the maximum voltage that could be applied across the busbar without its temperature exceeding 350 K.
 ### Unit Circle Problem
 The objective of this study was to investigate the effect of material selection on the thermal behavior of a unit circle. The analysis compared the resulting temperature profiles for three different materials: gold, lead, and helium gas.
 ## Design Methodology
 ### Copper Bus Bar Design Methodology 
 - **Parametric Sweep:** A parametric sweep was set over an appropriate voltage range (20-30 mV) to identify the maximum voltage required to meet the temperature constraint.
-- **Plot Adjustments:** The maximum temperature was set for both the bus bar body and for the scale, and the bus bar (green) was selected as the testing domain for the simulation.
+- **Plot Adjustments:** The maximum temperature was set for both the busbar body and for the scale, and the busbar (green) was selected as the testing domain for the simulation.
 
 <div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
   <figure class="research-figure" style="max-width:700px; margin:0 auto; width:100%;">
@@ -42,7 +42,7 @@ The objective of this study was to investigate the effect of material selection 
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
     >
     <figcaption class="research-caption" style="text-align:center; width:100%; color:#000; font-weight:bold; font-style:italic;">
-      Demonstration of plot adjustments before simulating the bus bar model: The temperature bounds were set and shown, and the bus bar (green) was selected as the domain
+      Demonstration of plot adjustments before simulating the busbar model: The temperature bounds were set and shown, and the bus bar (green) was selected as the domain
     </figcaption>
   </figure>
 </div>
@@ -80,7 +80,47 @@ The objective of this study was to investigate the effect of material selection 
              box-shadow:0 3px 10px rgba(0,0,0,0.15);"
     >
     <figcaption class="research-caption" style="text-align:center; width:100%; color:#000; font-weight:bold; font-style:italic;">
-      Demonstration of Neumann and Dirichlet boundary conditions applied for all three material models
+      Demonstration of Neumann and Dirichlet boundary conditions applied for all three material models. Note that the purple section represents a positive heat source application
+    </figcaption>
+  </figure>
+</div>
+
+## Results & Discussion
+### Copper Busbar Results
+As shown below, the maximum applied voltage that maintains the copper busbar at the specified temperature limit of 350 K is approximately 27.3 mV. This relatively small voltage is reasonable given copper's low electrical resistivity, which allows substantial current to flow even at low applied voltages, resulting in Joule heating. Copper's high thermal conductivity also promotes a relatively uniform temperature distribution across the busbar.
+### Unit Circle Results 
+As shown below, the relatively high thermal conductivities of gold and lead promote heat transfer away from the heat source, resulting in a more uniform temperature distribution throughout the domain. In contrast, helium has a much lower thermal conductivity, causing heat to remain concentrated near the source and producing a localized high-temperature region.
+
+<div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
+  <figure class="research-figure" style="max-width:700px; margin:0 auto; width:100%;">
+    <img
+      src="/images/COMSOL/Bus_Results.jpg"
+      alt="Bus bar simulation results showing maximum voltage and temperature"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption" style="text-align:center; width:100%; color:#000; font-weight:bold; font-style:italic;">
+      Demonstration of the temperature profile of the copper busbar undergoing joule heating. The maximum voltage required to reach the upper temperature limit (350 K) is ~27.3 mV
+    </figcaption>
+  </figure>
+</div>
+
+<div class="research-figure-grid" style="grid-template-columns: 1fr; margin-top:20px;">
+  <figure class="research-figure" style="max-width:700px; margin:0 auto; width:100%;">
+    <img
+      src="/images/COMSOL/Circle_Res.jpg"
+      alt="Temperature distribution results for gold, lead, and helium unit circle models"
+      style="width:100%;
+             height:auto;
+             display:block;
+             border-radius:8px;
+             box-shadow:0 3px 10px rgba(0,0,0,0.15);"
+    >
+    <figcaption class="research-caption" style="text-align:center; width:100%; color:#000; font-weight:bold; font-style:italic;">
+      Demonstration of the temperature profile across the unit circle geometry for gold, lead, and helium gas
     </figcaption>
   </figure>
 </div>
